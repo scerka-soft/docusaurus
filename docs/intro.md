@@ -1,47 +1,64 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Начало работы
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Время чтения **5 минут**.
 
-## Getting Started
+## Начало работы
 
-Get started by **creating a new site**.
+### Что вам понадобится установить
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- [GitHub Desktop](https://desktop.github.com/)
+  - Нужен для работы с GitHub.
+- [Node.js](https://nodejs.org/en/download/) версии 20 и выше:
+  - Нужен для сборки.
 
-### What you'll need
+### Клонирование репозитория
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Скачайте **GitHub Desktop** и войдите в него за свой аккаунт.
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
+Склонируйте репозиторий **[docusaurus](https://github.com/scerka-soft/docusaurus)** в **GitHub Desktop**.
 
 ```bash
-npm init docusaurus@latest my-website classic
+gh repo clone scerka-soft/docusaurus
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+В **GitHub Desktop** нажмите **ПКМ** на название репозитория и выберите пункт **Show in explorer**
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### Установки зависимостей
 
-## Start your site
+В окрывшимся окне сверху **в пути** наберите ```cmd``` и нажмите **Enter**
 
-Run the development server:
+В окне коммандной строке наберите ```npm i``` и дождитесь установки зависимостей.
 
-```bash
-cd my-website
-npm run start
-```
+После установки в коммандной строке наберите ```npm run start```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Открылся браузер с тестовым вики? Отлично, вы готовы к созданию новый страниц/статей!
+**(см. пункт создание страницы)**
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+### Загрузка изменений
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+После внесения изменений, перейдите в **GitHub Desktop** и выберите репозиторий **wiki-editable**
+
+Слева снизу в поле **Summary** введите название коммита.
+
+Нажмите кнопку **Commit to master**, а затем справа кнопку **Push origin**
+
+Готово! Ожидайте изменений на основном сайте.
+
+## Создание нового документа
+
+В папке с проектом перейдите в каталог ``docs``
+
+В нужном разделе создайте файл с вида name**.md**
+
+Отредактируйте его используя документацию.
+
+### Полезные ссылки
+
+- [Docusaurus документация](https://docusaurus.io/docs)
+  - Нужен для работы с GitHub.
+- [Markdown разметка](https://www.markdownguide.org/basic-syntax/)
