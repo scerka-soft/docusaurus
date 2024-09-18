@@ -30,7 +30,7 @@ import { URL } from 'url';
 // Fetch the posthtml template and convert it to an ejs template
 const main = () => {
     const buildDir = '../../../build';
-    let template = fs.readFileSync(new URL(`${buildDir}/base.html`, import.meta.url), 'utf8');
+    let template = fs.readFileSync(new URL(`index.html`, import.meta.url), 'utf8');
 
     // Inject our title now
     template = template.replace(
