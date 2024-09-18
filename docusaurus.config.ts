@@ -28,7 +28,9 @@ const config: Config = {
     defaultLocale: 'ru',
     locales: ['ru'],
   },
-
+  plugins: [[ require.resolve('docusaurus-lunr-search'), {
+    languages: ['en', 'ru'] // language codes
+  }]],
   presets: [
     [
       'classic',
