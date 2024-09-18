@@ -2,7 +2,7 @@ import FloatingActionButton from './floating-action-button.js';
 
 export default class BgFillButton extends FloatingActionButton {
   constructor() {
-    const title = 'Preview on vivid background';
+    const title = 'Предварительный просмотр на ярком фоне';
 
     super({
       title,

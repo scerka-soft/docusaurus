@@ -3,7 +3,7 @@ import Spinner from './spinner.js';
 
 export default class DownloadButton extends FloatingActionButton {
   constructor() {
-    const title = 'Download';
+    const title = 'Скачать';
 
     super({
       title,

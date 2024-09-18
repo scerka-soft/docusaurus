@@ -2,7 +2,7 @@ import FloatingActionButton from './floating-action-button.js';
 
 export default class CopyButton extends FloatingActionButton {
   constructor() {
-    const title = 'Copy as text';
+    const title = 'Копировать как текст';
 
     super({
       title,

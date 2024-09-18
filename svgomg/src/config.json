@@ -2,97 +2,97 @@
   "plugins": [
     {
       "id": "removeDoctype",
-      "name": "Remove doctype",
+      "name": "Удалить тип документа",
       "enabledByDefault": true
     },
     {
       "id": "removeXMLProcInst",
-      "name": "Remove XML instructions",
+      "name": "Удалить XML-инструкции",
       "enabledByDefault": true
     },
     {
       "id": "removeComments",
-      "name": "Remove comments",
+      "name": "Удалить комментарии",
       "enabledByDefault": true
     },
     {
       "id": "removeMetadata",
-      "name": "Remove <metadata>",
+      "name": "Удалять <metadata>",
       "enabledByDefault": true
     },
     {
       "id": "removeXMLNS",
-      "name": "Remove xmlns",
+      "name": "Удалять xmlns",
       "enabledByDefault": false
     },
     {
       "id": "removeEditorsNSData",
-      "name": "Remove editor data",
+      "name": "Удалить данные редактора",
       "enabledByDefault": true
     },
     {
       "id": "cleanupAttrs",
-      "name": "Clean up attribute whitespace",
+      "name": "Очистить пробелы атрибутов",
       "enabledByDefault": true
     },
     {
       "id": "mergeStyles",
-      "name": "Merge styles",
+      "name": "Объединить стили",
       "enabledByDefault": true
     },
     {
       "id": "inlineStyles",
-      "name": "Inline styles",
+      "name": "Встроенные стили",
       "enabledByDefault": true
     },
     {
       "id": "minifyStyles",
-      "name": "Minify styles",
+      "name": "Сократить стили",
       "enabledByDefault": true
     },
     {
       "id": "convertStyleToAttrs",
-      "name": "Style to attributes",
+      "name": "Стиль к атрибутам",
       "enabledByDefault": false
     },
     {
       "id": "cleanupIDs",
-      "name": "Clean up IDs",
+      "name": "Очистить идентификаторы",
       "enabledByDefault": true
     },
     {
       "id": "removeRasterImages",
-      "name": "Remove raster images",
+      "name": "Удалить растровые изображения",
       "enabledByDefault": false
     },
     {
       "id": "removeUselessDefs",
-      "name": "Remove unused defs",
+      "name": "Удалить неиспользуемые определения",
       "enabledByDefault": true
     },
     {
       "id": "cleanupNumericValues",
-      "name": "Round/rewrite numbers",
+      "name": "Округлить/переписать числа",
       "enabledByDefault": true
     },
     {
       "id": "cleanupListOfValues",
-      "name": "Round/rewrite number lists",
+      "name": "Округление/переписывание списков номеров",
       "enabledByDefault": false
     },
     {
       "id": "convertColors",
-      "name": "Minify colours",
+      "name": "Уменьшить цвета",
       "enabledByDefault": true
     },
     {
       "id": "removeUnknownsAndDefaults",
-      "name": "Remove unknowns & defaults",
+      "name": "Удалить неизвестные и значения по умолчанию",
       "enabledByDefault": true
     },
     {
       "id": "removeNonInheritableGroupAttrs",
-      "name": "Remove unneeded group attrs",
+      "name": "Удалить ненужные атрибуты группы",
       "enabledByDefault": true
     },
     {
@@ -217,7 +217,7 @@
     },
     {
       "id": "removeOffCanvasPaths",
-      "name": "Remove out-of-bounds paths",
+      "name": "Удалить пути, выходящие за пределы диапазона",
       "enabledByDefault": false
     }
   ]
