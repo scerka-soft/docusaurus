@@ -134,7 +134,7 @@ const config: Config = {
 			],
 		},
 	  ],
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="//github.com/scerka-soft" target="_blank" rel="noopener noreferrer">SCERKA SOFT</a>.<br>Создано с помощью <a href="//docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="//github.com/scerka-soft" target="_blank" rel="noopener noreferrer">SCERKA SOFT</a>.<br>Создано с помощью <a href="//docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>.<script>let element = document.getElementById("search_input_react");let attr = element.getAttribute("placeholder");element.setAttribute('placeholder', attr.replace('Search', 'Поиск'));</script>`,
     },
     prism: {
       theme: prismThemes.github,
