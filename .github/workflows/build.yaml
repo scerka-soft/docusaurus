@@ -39,6 +39,21 @@ jobs:
         run: |
           cp CNAME build/CNAME
           cp robots.txt build/robots.txt
+          
+      - name: Build Nginx Config
+        run: |
+          cd nginxconfig
+          npm ci
+          npm test
+          npm run build
+          cd ../
+          mkdir build/nginx
+          cp -r /nginxconfig/dist/* build/nginx
+
+      - name: Build
+        run: npm run build
+        env:
+          NODE_ENV: production
 
       - name: Deploy master to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
