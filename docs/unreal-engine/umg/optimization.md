@@ -9,4 +9,4 @@ description: 'Docs related to the Docusaurus framework'
 
 Для скрытия элементов нужно использовать **Visibality** - **collapsed**, не **hidden** (просчитывает геометрию)
 
-Не использвать **Bind**, т.к. вызываеться каждый тик, лучше использовать blueprint логику
+Не использвать **Bind**, т.к. вызываеться каждый тик, лучше использовать Blueprint логику
