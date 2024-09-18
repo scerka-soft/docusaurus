@@ -48,7 +48,7 @@ jobs:
           npm run build
           cd ../
           mkdir build/nginx
-          cp -r /nginxconfig/dist/* build/nginx
+          cp -r nginxconfig/dist/* build/nginx
 
       - name: Build
         run: npm run build
