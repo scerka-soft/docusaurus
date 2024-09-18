@@ -32,6 +32,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Localize search module
+        run: |
+          sed -i 's/Loading.../Загрузка.../' node_modules/docusaurus-lunr-search/src/theme/SearchBar/index.jsx
+          sed -i 's/Search Ctrl+K/Поиск Ctrl+K/' node_modules/docusaurus-lunr-search/src/theme/SearchBar/index.jsx
+          sed -i 's/Search ⌘+K/Поиск ⌘+K/' node_modules/docusaurus-lunr-search/src/theme/SearchBar/index.jsx
+
       - name: Build
         run: npm run build
         env:

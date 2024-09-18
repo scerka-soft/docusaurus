@@ -134,12 +134,7 @@ const config: Config = {
 			],
 		},
 	  ],
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="//github.com/scerka-soft" target="_blank" rel="noopener noreferrer">SCERKA SOFT</a>.<br>Создано с помощью <a href="//docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>.<script>
-document.getElementById("search_input_react").setAttribute("placeholder","Поиск");
-	 document.getElementById("search_input_react").addEventListener("change", (event) => {
-document.getElementById("search_input_react").setAttribute("placeholder","Поиск");
-});
-	  </script>`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="//github.com/scerka-soft" target="_blank" rel="noopener noreferrer">SCERKA SOFT</a>.<br>Создано с помощью <a href="//docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>.`,
     },
     prism: {
       theme: prismThemes.github,
