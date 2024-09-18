@@ -28,7 +28,7 @@
     "test:i18n-packs": "node --import=extensionless/register src/nginxconfig/i18n/verify.js",
     "test:prettier": "prettier 'src/**/*.{js,vue}' --check",
     "test:prettier:fix": "prettier --write 'src/**/*.{js,vue}'",
-    "prepare": "husky install"
+    "prepare": "cd .. && husky install"
   },
   "jest": {
     "testRegex": "/test/.*.js?$"
