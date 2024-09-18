@@ -115,7 +115,7 @@ export default class MainController {
 
       // someone managed to hit the preloader, aww
       if (preloaderUi.activated) {
-        this._toastsUi.show('Ready now!', { duration: 3000 });
+        this._toastsUi.show('Готово сейчас!', { duration: 3000 });
       }
 
       // for testing
@@ -143,7 +143,7 @@ export default class MainController {
   _onGlobalPaste(event) {
     const value = event.clipboardData.getData('text');
     if (!value.includes('</svg>')) {
-      this._toastsUi.show('Pasted value not an SVG', { duration: 2000 });
+      this._toastsUi.show('Вставленное значение не является SVG', { duration: 2000 });
     } else {
       this._mainMenuUi.setPasteInput(value);
       event.preventDefault();
@@ -155,7 +155,7 @@ export default class MainController {
     if (!selection.isCollapsed) return;
 
     this._toastsUi.show(
-      this._copyButtonUi.copyText() ? 'Copy successful' : 'Nothing to copy',
+      this._copyButtonUi.copyText() ? 'Копирование успешно' : 'Нечего копировать',
       { duration: 2000 },
     );
 
@@ -174,7 +174,7 @@ export default class MainController {
         newWorker.state === 'activated' &&
         !navigator.serviceWorker.controller
       ) {
-        this._toastsUi.show('Ready to work offline', { duration: 5000 });
+        this._toastsUi.show('Готов к работе офлайн', { duration: 5000 });
         return;
       }
 
@@ -190,7 +190,7 @@ export default class MainController {
         }
 
         // otherwise, show the user an alert
-        const toast = this._toastsUi.show('Update available', {
+        const toast = this._toastsUi.show('Доступно обновление', {
           buttons: ['reload', 'dismiss'],
         });
         const answer = await toast.answer;
@@ -210,7 +210,7 @@ export default class MainController {
   }
 
   async _onSettingsReset(oldSettings) {
-    const toast = this._toastsUi.show('Settings reset', {
+    const toast = this._toastsUi.show('Сброс настроек', {
       buttons: ['undo', 'dismiss'],
       duration: 5000,
     });
