@@ -35,7 +35,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.table-of-contents__link {
+.table-of-contents__link, .breadcrumbs__link {
 	font-size: 0.9rem;
 }
 
