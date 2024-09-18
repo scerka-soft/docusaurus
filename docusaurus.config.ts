@@ -68,6 +68,11 @@ const config: Config = {
           label: 'NGINXConfig',
         },
         {
+          href: '//docusaurus.scerka.ru/svg',
+          position: 'right',
+          label: 'SVGOMG',
+        },
+        {
           href: '//github.com/scerka-soft',
           label: 'GitHub',
           position: 'right',
@@ -113,6 +118,10 @@ const config: Config = {
 				{
 					label: 'NGINXConfig',
 					href: '//docusaurus.scerka.ru/nginx',
+				},
+				{
+					label: 'SVGOMG',
+					href: '//docusaurus.scerka.ru/svg',
 				},
 			],
 		},
