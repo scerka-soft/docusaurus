@@ -50,11 +50,6 @@ jobs:
           mkdir build/nginx
           cp -r nginxconfig/dist/* build/nginx
 
-      - name: Build
-        run: npm run build
-        env:
-          NODE_ENV: production
-
       - name: Deploy master to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
