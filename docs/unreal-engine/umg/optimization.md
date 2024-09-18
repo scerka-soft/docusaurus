@@ -1,10 +1,12 @@
 ---
-sidebar_label: UMG (User Widget)
+sidebar_label: Оптимизация UMG
+description: 'Docs related to the Docusaurus framework'
+last_update:
+	date: 1/1/2000
+	author: Scerka
 ---
 
-# UMG (User Widget)
-
-## Оптимизация
+# Оптимизация
 
 Для **Image** просчитываеться **Hit** (клики) для оптимизации в **Visibality** ставить **Not hit test**
 

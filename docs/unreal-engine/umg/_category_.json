@@ -1,0 +1,9 @@
+{
+  "label": "UI (UMG)",
+  "description": "Docs related to the Docusaurus framework",
+  "link": {
+    "type": "generated-index",
+	"title": "UI (UMG)",
+	"description": "Помощь с Blender для UE."
+  }
+}

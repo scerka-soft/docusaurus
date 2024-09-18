@@ -3,9 +3,9 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'SCERKA',
+  title: 'SCERKA Docusaurus',
   tagline: '',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://docusaurus.scerka.ru',
@@ -36,8 +36,8 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
 		  routeBasePath: '/',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+		  showLastUpdateAuthor: true,
+		  showLastUpdateTime: true,
           editUrl:
             'https://github.com/scerka-soft/docusaurus/tree/master/',
         },
@@ -53,60 +53,42 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'SCERKA Docusaurus',
+      title: 'Docusaurus',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
 		srcDark: 'img/logo.svg',
       },
       items: [
-        /*{
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },*/
         {
-          href: 'https://github.com/scerka-soft/docusaurus',
+          href: '//docusaurus.scerka.ru/nginx',
+          position: 'right',
+          label: 'NGINXConfig',
+        },
+        {
+          href: '//github.com/scerka-soft',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
 	  links: [
-		{
-			title: 'Epic Games',
-			items: [
-				{
-					label: 'Epic Games',
-					href: 'https://store.epicgames.com/ru/',
-				},
-				{
-					label: 'Unreal Engine',
-					href: 'https://www.unrealengine.com/en-US',
-				},
-				{
-					label: 'UE Документация',
-					href: 'https://docs.unrealengine.com/',
-				},
-			],
-		},
 		{
 			title: 'Docusaurus',
 			items: [
 				{
 					label: 'Docusaurus',
-					href: 'https://docusaurus.io/',
+					href: '//docusaurus.io/',
 				},
 				{
 					label: 'Docusaurus Документация',
-					href: 'https://docusaurus.io/docs',
+					href: '//docusaurus.io/docs',
 				},
 				{
 					label: 'Markdown',
-					href: 'https://www.markdownguide.org/basic-syntax/',
+					href: '//www.markdownguide.org/basic-syntax/',
 				},
 			],
 		},
@@ -114,17 +96,47 @@ const config: Config = {
 			title: 'Команда',
 			items: [
 				{
+					label: 'Scerka Soft',
+					href: '//github.com/scerka-soft',
+				},
+				{
 					label: 'Scerka',
-					href: 'https://scerka.ru/',
+					href: '//scerka.ru/',
 				}
 			],
 		},
+		{
+			title: 'Инструменты',
+			items: [
+				{
+					label: 'NGINXConfig',
+					href: '//docusaurus.scerka.ru/nginx',
+				},
+			],
+		},
+		{
+			title: 'Epic Games',
+			items: [
+				{
+					label: 'Epic Games',
+					href: '//store.epicgames.com/ru/',
+				},
+				{
+					label: 'Unreal Engine',
+					href: '//www.unrealengine.com/en-US',
+				},
+				{
+					label: 'UE Документация',
+					href: '//docs.unrealengine.com/',
+				},
+			],
+		},
 	  ],
-      copyright: `Copyright © ${new Date().getFullYear()} SCERKA. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="//github.com/scerka-soft" target="_blank" rel="noopener noreferrer">SCERKA SOFT</a>.<br>Создано с помощью <a href="//docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>.`,
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      darkTheme: prismThemes.oceanicNext,
     },
   } satisfies Preset.ThemeConfig,
 };

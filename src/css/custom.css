@@ -1,30 +1,48 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #3b5891;
+  --ifm-color-primary-dark: #354f83;
+  --ifm-color-primary-darker: #324b7b;
+  --ifm-color-primary-darkest: #293e66;
+  --ifm-color-primary-light: #41619f;
+  --ifm-color-primary-lighter: #4465a7;
+  --ifm-color-primary-lightest: #5174b8;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --custom-navbar: var(--ifm-navbar-background-color);
+  --custom-footer: var(--ifm-footer-background-color);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #7aa7ff;
+  --ifm-color-primary-dark: #548eff;
+  --ifm-color-primary-darker: #4182ff;
+  --ifm-color-primary-darkest: #095cff;
+  --ifm-color-primary-light: #a0c0ff;
+  --ifm-color-primary-lighter: #b3ccff;
+  --ifm-color-primary-lightest: #ebf2ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-emphasis-200: #282a2e !important;
+  --ifm-color-emphasis-300: #282a2e !important;
+  --custom-navbar: #141415;
+  --custom-footer: #141415;
+}
+
+body {
+	letter-spacing: .2px;
+}
+
+.footer__links {
+    margin-bottom: 2rem;
+}
+
+.table-of-contents__link {
+	font-size: 0.9rem;
+}
+
+.footer {
+    background-color: var(--custom-footer);
+}
+
+.navbar {
+    background-color: var(--custom-navbar);
 }
