@@ -24,9 +24,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-export const defaultPack = 'en';
+export const defaultPack = 'ru';
 
-export { default as defaultPackData } from '../i18n/en';
+export { default as defaultPackData } from '../i18n/ru';
 
 export const toSep = (pack, sep) =>
     pack
@@ -41,15 +41,6 @@ export const fromSep = (pack, sep) =>
 
 // Export a static array of all language packs
 export const availablePacks = Object.freeze([
-    'de',
     'en',
-    'es',
-    'fr',
-    'ja',
-    'pl',
-    'ptBR',
     'ru',
-    'zhCN',
-    'zhTW',
-    'fa',
 ]);
