@@ -46,3 +46,7 @@ body {
 .navbar {
     background-color: var(--custom-navbar);
 }
+
+.navbar__logo {
+    margin-right: 1rem;
+}

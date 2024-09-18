@@ -57,8 +57,8 @@ const config: Config = {
     navbar: {
       title: 'Docusaurus',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Scerka Logo',
+        src: 'img/logo-dark.svg',
 		srcDark: 'img/logo.svg',
       },
       items: [
