@@ -41,7 +41,7 @@ const main = () => {
     // Inject our app mounting point
     template = template.replace('<block name="content"></block>', '<div id="app"></div>');
 
-    fs.writeFileSync(new URL(`${buildDir}/base.html`, import.meta.url), template);
+    fs.writeFileSync(new URL(`${buildDir}/index.html`, import.meta.url), template);
 };
 
 main();
