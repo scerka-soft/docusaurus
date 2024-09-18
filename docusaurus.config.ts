@@ -120,7 +120,7 @@ const config: Config = {
 			],
 		},
 	  ],
-      copyright: `Copyright © ${new Date().getFullYear()} SCERKA SOFT. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} SCERKA. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
