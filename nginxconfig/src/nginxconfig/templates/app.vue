@@ -27,9 +27,6 @@ THE SOFTWARE.
 <template>
     <div class="all do-bulma">
         <Header :title="$t('templates.app.title')">
-            <template #description>
-                {{ $t('templates.app.description') }}
-            </template>
             <template #header></template>
             <template #buttons>
                 <VueSelect
@@ -158,7 +155,6 @@ THE SOFTWARE.
         </div>
 
         <Footer></Footer>
-        <ContributeCallout></ContributeCallout>
     </div>
 </template>
 
@@ -185,7 +181,6 @@ THE SOFTWARE.
     import Domain from './domain';
     import Global from './global';
     import DropletCallout from './callouts/droplet';
-    import ContributeCallout from './callouts/contribute';
     import Setup from './setup';
     import Footer from './footer';
 
@@ -200,7 +195,6 @@ THE SOFTWARE.
             Domain,
             Global,
             DropletCallout,
-            ContributeCallout,
             Setup,
             NginxPrism,
             YamlPrism: defineAsyncComponent(() => import('./prism/yaml')),
