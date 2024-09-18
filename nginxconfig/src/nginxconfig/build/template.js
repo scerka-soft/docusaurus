@@ -44,4 +44,4 @@ const main = () => {
     fs.writeFileSync(new URL(`${buildDir}/index.html`, import.meta.url), template);
 };
 
-main();
+//main();
