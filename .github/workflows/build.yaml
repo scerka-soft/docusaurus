@@ -67,6 +67,11 @@ jobs:
           mkdir build/svg
           cp -r svgomg/build/* build/svg
 
+      - name: Build Kinobox
+        run: |
+          mkdir build/kinobox
+          cp -r kinobox/* build/kinobox
+
       - name: Deploy master to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:

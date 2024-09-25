@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-v17-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-v17-latin-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/pt-sans-v17-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/pt-sans-v17-latin-700italic.woff2') format('woff2');
+}
+
 :root {
   --ifm-color-primary: #3b5891;
   --ifm-color-primary-dark: #354f83;
@@ -10,6 +38,8 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --custom-navbar: var(--ifm-navbar-background-color);
   --custom-footer: var(--ifm-footer-background-color);
+  --ifm-font-family-base: "PT Sans", sans-serif;
+  /*--ifm-font-family-monospace: "JetBrains Mono", monospace;*/
 }
 
 [data-theme='dark'] {
@@ -29,6 +59,7 @@
 
 body {
 	letter-spacing: .2px;
+	font-variation-settings: 'YTLC' 480;
 }
 
 .footer__links {
