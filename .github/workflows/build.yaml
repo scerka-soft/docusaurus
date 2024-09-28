@@ -73,7 +73,7 @@ jobs:
           cp -r kinobox/* build/kinobox
 
       - name: Deploy master to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4.6.4
         with:
           folder: build
           branch: gh-pages
