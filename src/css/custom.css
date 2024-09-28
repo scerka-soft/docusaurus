@@ -48,7 +48,7 @@
   --ifm-color-primary-lightest: #5174b8;
 }
 
-[data-theme='dark'] {
+html[data-theme='dark'] {
   --ifm-color-primary: #7aa7ff;
   --ifm-color-primary-dark: #548eff;
   --ifm-color-primary-darker: #4182ff;
@@ -57,12 +57,20 @@
   --ifm-color-primary-lighter: #b3ccff;
   --ifm-color-primary-lightest: #ebf2ff;
   
+  --ifm-background-color: #191919;
   --ifm-navbar-background-color: #141414;
   --ifm-footer-background-color: #141414;
+  
+  --ifm-color-gray-800: #27282a;
+  --ifm-color-gray-700: #27282a;
+}
 
-  --ifm-color-emphasis-200: #282a2e !important;
-  --ifm-color-emphasis-300: #282a2e !important;
-  --ifm-color-emphasis-500: #282a2e !important;
+hr {
+	background-color: #272729;
+}
+
+p, li {
+	text-align: justify;
 }
 
 body {
@@ -77,8 +85,8 @@ body {
     margin-bottom: 2rem;
 }
 
-.table-of-contents__link, .breadcrumbs__link, .cardDescription_node_modules-\@docusaurus-theme-classic-lib-theme-DocCard-styles-module {
-	font-size: 0.9rem !important;
+.table-of-contents__link, .breadcrumbs__link, .card p {
+	font-size: 0.9rem;
 }
 
 .navbar__logo {
