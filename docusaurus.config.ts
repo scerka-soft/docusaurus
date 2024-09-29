@@ -53,15 +53,12 @@ const config: Config = {
       },
       items: [
         {
-          href: '//docusaurus.scerka.ru/tools/nginxconfig',
-          position: 'right',
-          label: 'NGINXConfig',
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Документация',
         },
-        {
-          href: '//docusaurus.scerka.ru/tools/svgomg',
-          position: 'right',
-          label: 'SVGOMG',
-        },
+        {to: '/tools', label: 'Инструменты', position: 'left'},
         {
           href: '//github.com/scerka-soft',
           label: 'GitHub',
