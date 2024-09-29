@@ -46,7 +46,10 @@ jobs:
         run: |
           cp CNAME build/CNAME
           cp robots.txt build/robots.txt
-          
+     
+      - name: Tools | Create folder
+        run: mkdir build/tools
+     
       - name: Tools | Build Nginx Config
         run: |
           cd tools/nginxconfig
