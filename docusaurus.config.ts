@@ -105,11 +105,11 @@ const config: Config = {
 			items: [
 				{
 					label: 'NGINXConfig',
-					href: '//docusaurus.scerka.ru/tools/nginxconfig',
+					href: '//docusaurus.scerka.ru/tools/nginxconfig/',
 				},
 				{
 					label: 'SVGOMG',
-					href: '//docusaurus.scerka.ru/tools/svgomg',
+					href: '//docusaurus.scerka.ru/tools/svgomg/',
 				},
 			],
 		},
