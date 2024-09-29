@@ -59,7 +59,7 @@ const config: Config = {
           position: 'left',
           label: 'Документация',
         },
-        {to: '/tools', label: 'Инструменты', position: 'left'},
+        {to: '/page/tools', label: 'Инструменты', position: 'left'},
         {
           href: '//github.com/scerka-soft',
           label: 'GitHub',
