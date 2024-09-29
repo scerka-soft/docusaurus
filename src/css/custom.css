@@ -46,6 +46,8 @@
   --ifm-color-primary-light: #41619f;
   --ifm-color-primary-lighter: #4465a7;
   --ifm-color-primary-lightest: #5174b8;
+  
+  --prism-bgcolor: #f6f8fa;
 }
 
 html[data-theme='dark'] {
@@ -65,6 +67,7 @@ html[data-theme='dark'] {
   --ifm-color-gray-700: #27282a;
   
   --logo-filter: invert(1);
+  --prism-bgcolor: #292929;
 }
 
 hr {
@@ -89,4 +92,8 @@ body {
 
 .navbar__logo img {
 	filter: var(--logo-filter);
+}
+
+.prism-code {
+	background-color: var(--prism-bgcolor) !important;
 }
