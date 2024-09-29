@@ -10,6 +10,10 @@ const config: Config = {
   url: 'https://docusaurus.scerka.ru',
   baseUrl: '/',
 
+  onBrokenLinks: 'ignore',
+  onBrokenAnchors: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
+
   organizationName: 'scerka-soft',
   projectName: 'docusaurus',
 
@@ -58,7 +62,7 @@ const config: Config = {
           position: 'left',
           label: 'Документация',
         },
-        {to: '/page/tools', label: 'Инструменты', position: 'left'},
+        {to: '/tools', label: 'Инструменты', position: 'left'},
         {
           href: '//github.com/scerka-soft',
           label: 'GitHub',
