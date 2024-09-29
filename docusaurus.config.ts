@@ -17,9 +17,6 @@ const config: Config = {
   organizationName: 'scerka-soft',
   projectName: 'docusaurus',
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-
   i18n: {
     defaultLocale: 'ru',
     locales: ['ru'],
