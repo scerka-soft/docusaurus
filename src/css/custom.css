@@ -63,6 +63,8 @@ html[data-theme='dark'] {
   
   --ifm-color-gray-800: #27282a;
   --ifm-color-gray-700: #27282a;
+  
+  --logo-filter: invert(1);
 }
 
 hr {
@@ -81,14 +83,10 @@ body {
 	font-family: var(--ifm-font-family-base);
 }
 
-.footer__links {
-    margin-bottom: 2rem;
-}
-
 .table-of-contents__link, .breadcrumbs__link, .card p {
 	font-size: 0.9rem;
 }
 
-.navbar__logo {
-    margin-right: 1rem;
+.navbar__logo img {
+	filter: var(--logo-filter);
 }
