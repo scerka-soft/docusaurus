@@ -28,6 +28,8 @@ $header: #0071fe;
 $highlight: #f2c94c;
 $callout: #f3f5f9;
 
+@import "fonts";
+
 @import "~do-bulma/src/style";
 
 .do-bulma {
@@ -39,7 +41,6 @@ $callout: #f3f5f9;
   @import "~pretty-checkbox/src/pretty-checkbox";
 
   // Local imports
-  @import "fonts";
   @import "header";
   @import "tabs";
   @import "panel";
