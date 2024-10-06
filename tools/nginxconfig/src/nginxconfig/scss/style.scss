@@ -30,8 +30,6 @@ $callout: #f3f5f9;
 
 @import "~do-bulma/src/style";
 
-@import "fonts";
-
 .do-bulma {
   @import "../../../build/prism";
 
@@ -41,6 +39,7 @@ $callout: #f3f5f9;
   @import "~pretty-checkbox/src/pretty-checkbox";
 
   // Local imports
+  @import "fonts";
   @import "header";
   @import "tabs";
   @import "panel";
