@@ -28,28 +28,28 @@ THE SOFTWARE.
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/pt-sans-regular.woff2') format('woff2');
+  src: url('../../../../../src/fonts/pt-sans-regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'PT Sans';
   font-style: italic;
   font-weight: 400;
-  src: url('/fonts/pt-sans-italic.woff2') format('woff2');
+  src: url('../../../../../src/fonts/pt-sans-italic.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('/fonts/pt-sans-700.woff2') format('woff2');
+  src: url('../../../../../src/fonts/pt-sans-700.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'PT Sans';
   font-style: italic;
   font-weight: 700;
-  src: url('/fonts/pt-sans-700italic.woff2') format('woff2');
+  src: url('../../../../../src/fonts/pt-sans-700italic.woff2') format('woff2');
 }
 
 $header: #0071fe;
