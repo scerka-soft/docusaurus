@@ -46,6 +46,7 @@ jobs:
         run: |
           cp CNAME build/CNAME
           cp robots.txt build/robots.txt
+          cp -r src/fonts/* build/assets/fonts
      
       - name: Tools | Create folder
         run: mkdir build/tools
