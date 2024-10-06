@@ -59,7 +59,7 @@ jobs:
           npm run build
           rm -rf dist/fonts
           sed -i 's/@font-face{font-display:swap;font-family:Inter.*")}//' dist/css/app.css
-          sed -i 's/font-family:Inter[A-Za-z, -]\{0,\};/font-family: '\''PT-Sans'\'', sans-serif;/g' dist/css/app.css
+          sed -i 's/font-family:Inter[A-Za-z, -]\{0,\};/font-family: PT-Sans, sans-serif;/g' dist/css/app.css
           cd ../../ 
           mkdir build/tools/nginxconfig
           cp -r tools/nginxconfig/dist/* build/tools/nginxconfig
