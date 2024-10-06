@@ -54,11 +54,10 @@ jobs:
         run: |
           cd tools/nginxconfig
           npm ci
+          sed -i 's/@import "globals/fonts";//' node_modules/do-bulma/src/style.scss
           npm test
           npm run build
-          cd ../../
-          sed -i 's/Inter-Medium,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif/PT-Sans, sans-serif/' tools/nginxconfig/dist/css/app.css
-          rm -rf tools/nginxconfig/dist/fonts
+          cd ../../ 
           mkdir build/tools/nginxconfig
           cp -r tools/nginxconfig/dist/* build/tools/nginxconfig
           
