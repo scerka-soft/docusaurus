@@ -57,7 +57,7 @@ jobs:
           npm test
           npm run build
           rm -rf dist/fonts
-          sed -i 's/Inter-Regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif//'PT Sans/', sans-serif/' dist/css/app.css
+          sed -i 's/Inter-Regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif/PT-Sans, sans-serif/' dist/css/app.css
           cd ../../ 
           mkdir build/tools/nginxconfig
           cp -r tools/nginxconfig/dist/* build/tools/nginxconfig
