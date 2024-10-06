@@ -7,5 +7,6 @@ node_modules
 /build/
 /dist/
 /dev/
+/.github/
 
 .eslintcache

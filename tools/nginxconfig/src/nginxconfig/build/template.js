@@ -24,9 +24,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-import fs from 'fs';
-import { URL } from 'url';
-
 // Fetch the posthtml template and convert it to an ejs template
 const main = () => {
     const buildDir = '../../../build';
