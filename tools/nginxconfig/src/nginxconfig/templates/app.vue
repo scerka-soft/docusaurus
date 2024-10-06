@@ -27,9 +27,6 @@ THE SOFTWARE.
 <template>
     <div class="all do-bulma">
         <Header :title="$t('templates.app.title')">
-            <template #description>
-                {{ $t('templates.app.description') }}
-            </template>
             <template #header></template>
             <template #buttons>
                 <VueSelect
