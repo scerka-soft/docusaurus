@@ -54,7 +54,6 @@ jobs:
         run: |
           cd tools/nginxconfig
           npm ci
-          sed -i 's/@import "globals/fonts";//' node_modules/do-bulma/src/style.scss
           npm test
           npm run build
           cd ../../ 
